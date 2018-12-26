@@ -20,6 +20,7 @@ public class BoardServiceTests {
 	@Setter(onMethod_= {@Autowired})
 	private BoardService service;
 	
+	
 	/*@Test
 	public void testRegister() {
 		BoardVO board = new BoardVO();
@@ -31,7 +32,7 @@ public class BoardServiceTests {
 		
 		log.info("생성된 게시물의 번호: " + board.getBno());
 	}*/
-	
+	/*
 	@Test
 	public void testGet() {
 		service.get(13L);
@@ -53,7 +54,7 @@ public class BoardServiceTests {
 		board.setTitle("제목 수정합니다.");
 		log.info("Modify result : " + service.modify(board));
 	}
-/*
+
 	@Test
 	public void testGetList() {
 		service.getList().forEach(board->log.info(board));
