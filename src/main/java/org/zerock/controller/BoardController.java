@@ -36,9 +36,9 @@ public class BoardController {
 		log.info("register: " + board);
 		
 		service.register(board);
-		
+	
 		rttr.addFlashAttribute("result", board.getBno());
-		
+		System.out.println("result : "+ board.getBno());
 		return "redirect:/board/list";
 	}
 	

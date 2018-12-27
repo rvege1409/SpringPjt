@@ -1,5 +1,6 @@
 package org.zerock.service;
 
+import java.util.HashMap;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
@@ -8,6 +9,7 @@ import org.zerock.mapper.BoardMapper;
 
 import lombok.AllArgsConstructor;
 import lombok.Setter;
+import lombok.var;
 import lombok.extern.log4j.Log4j;
 
 
@@ -27,8 +29,7 @@ public class BoardServiceImpl implements BoardService {
 	@Override
 	public BoardVO get(Long bno) {
 		log.info("get...." );
-		mapper.read(bno);
-		return null;
+		return mapper.read(bno);
 	}
 
 	@Override

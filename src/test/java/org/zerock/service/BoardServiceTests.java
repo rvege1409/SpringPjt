@@ -21,7 +21,7 @@ public class BoardServiceTests {
 	private BoardService service;
 	
 	
-	/*@Test
+	@Test
 	public void testRegister() {
 		BoardVO board = new BoardVO();
 		board.setTitle("새로 작성하는 글");
@@ -30,8 +30,8 @@ public class BoardServiceTests {
 		
 		service.register(board);
 		
-		log.info("생성된 게시물의 번호: " + board.getBno());
-	}*/
+		//log.info("생성된 게시물의 번호: " + board.getBno());
+	}
 	/*
 	@Test
 	public void testGet() {

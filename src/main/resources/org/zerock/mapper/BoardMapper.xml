@@ -14,9 +14,13 @@
 	</insert>
 	
 	
-	<insert id = "insertSelectKey">
+	<insert id = "insertSelectKey" parameterType = "org.zerock.domain.BoardVO" useGeneratedKeys="true" keyProperty="bno">
+	
+
 		insert into mvc_board(title,content, writer)
-		values (#{title}, #{content}, #{writer})	
+		values (#{title}, #{content}, #{writer})
+		
+		
 	</insert>
 	
 	<select id= "read" resultType="org.zerock.domain.BoardVO">
