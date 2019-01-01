@@ -1,6 +1,6 @@
 ## SpringPjt
 
-![](/Read_Me_images/1.png)
+![](/Read_Me_images/1.PNG)
 
 
 ---
