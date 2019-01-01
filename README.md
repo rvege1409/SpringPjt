@@ -1,6 +1,6 @@
 
 ## SpringPjt
-
+Spring framework 를 이용한 간단한 CRUD 게시판 
 
 ---
 
